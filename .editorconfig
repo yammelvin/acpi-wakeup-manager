@@ -1,0 +1,13 @@
+# EditorConfig: https://editorconfig.org
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# Shell scripts and systemd unit files use 2-space indentation
+[*.{sh,service}]
+indent_style = space
+indent_size = 2

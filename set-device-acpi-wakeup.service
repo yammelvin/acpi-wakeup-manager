@@ -1,0 +1,13 @@
+[Unit]
+Description=Set ACPI Wakeup Status for PCI Devices
+After=sysinit.target
+ConditionPathExists=
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+WorkingDirectory=
+ExecStart=
+
+[Install]
+WantedBy=multi-user.target
